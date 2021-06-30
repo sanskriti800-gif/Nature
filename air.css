@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(213, 235, 170);
+}
+
+img{
+     width:32.7%;
+    height:20%; 
+    text-align: center;
+    border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+a{
+    padding-left: 2%;
+    padding-top: 2%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4f772d;
+    text-align: center;
+    font-size: 40px; 
+}
+h4 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.w3-container p{
+    padding-top: 5%;
+}
+.w3-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img:hover {
+    opacity: 0.5;
+}
+.cardssection{
+    height:90%;
+}
+p{
+    padding-bottom: 30%;
+}
+.cardssection:hover{
+    margin-top: 0px;
+    -webkit-transition: margin 1s ease;
+       -moz-transition: margin 1s ease;
+         -o-transition: margin 1s ease;
+        -ms-transition: margin 1s ease;
+            transition: margin 1s ease;
+            margin-top: 40px;
+}
+p{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-weight: 300;
+    text-align: center; 
+
+}
+@media (max-width:1024px){
+    img{
+        height:10%;
+    }
+} 
+@media (min-width:768px) and (max-width:768px){
+    .cardssection{
+        height:80%;
+    }
+    p{
+        padding-bottom: 0%;
+    }
+    img{
+        width:49%;
+       height:24%; 
+       text-align: center;
+       border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+}
+@media (min-width:540px) and (max-width:540px){
+    img{
+        width:32%;
+       height:23%; 
+       text-align: center;
+       border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+}
+@media (min-width:414px) and (max-width:414px){
+    .cardssection{
+        height:50%;
+    }
+    p{
+        padding-bottom: 0%;
+    }
+    img{
+        width:32%;
+       height:24%; 
+       text-align: center;
+       border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+}
+@media (min-width:1024px) and (max-width:1024px){
+    .cardssection{
+        height:80%;
+    }
+    p{
+        padding-bottom: 0%;
+    }
+    img{
+        width:32%;
+       height:20%; 
+       text-align: center;
+       border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+}
+@media (max-width:414px){
+    .cardssection{
+        height:80%;
+    }
+    p{
+        padding-bottom: 0%;
+    }
+    img{
+        width:32%;
+       height:23%; 
+       text-align: center;
+       border-radius: 15px;
+     cursor: pointer;
+     transition: 0.3s;
+   }
+}
